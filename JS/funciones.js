@@ -33,6 +33,6 @@ greetMe('Juanse');
 
 // Arrow Function
 
-const greetMe2 = (name) => console.log(`Hola ${name}`)
+const greetMe2 = name => console.log(`Hola ${name}`)
 
 greetMe2('Sara');

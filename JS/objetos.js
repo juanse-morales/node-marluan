@@ -7,6 +7,7 @@
 const person = {
   name: 'Juan',
   lastname: 'Morales',
+  isStudent: true,
   getFullName() {
     return this.name + " " + this.lastname;
   }

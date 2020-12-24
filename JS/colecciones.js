@@ -5,7 +5,7 @@ const fruits = [
   "apple", 
   "melon", 
   "mango", 
-  function(){ 
+  ()=>{ 
     console.log("Hola");
     return 1;
   }

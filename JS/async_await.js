@@ -59,7 +59,7 @@ async function getAuthorById(id){
 
 async function main(){
   try{
-    const book = await getBookById(20);
+    const book = await getBookById(2);
     const author = await getAuthorById(book.authorId);
     console.log(`This book ${book.title} was written by ${author.name}`);
   } catch (ex) {

@@ -65,6 +65,4 @@ getBookById(1)
   .then(author => {
     console.log(author);
   })
-  .catch(err=>{
-    console.log(err.message);
-  });
+  .catch(error => console.log(error.message));
