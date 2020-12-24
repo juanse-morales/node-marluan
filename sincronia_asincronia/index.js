@@ -1,5 +1,5 @@
-const {EventEmitter} = require('events');
-const {SAVE} = require('./event-names');
+const { EventEmitter } = require('events');
+const { SAVE } = require('./event-names');
 
 const emitter = new EventEmitter();
 
