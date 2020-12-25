@@ -1,6 +1,6 @@
-const http = require('http');
+const express = require('express');
+const server = express();
 
-http.createServer((request,response)=>{
-  response.write("Hello world from NodeJs");
-  response.end();
-}).listen(8080);
+server.listen(8080, ()=>{
+  console.log("Server is running on port "+ 8080);
+});
