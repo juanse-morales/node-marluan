@@ -1,0 +1,20 @@
+{
+  "name": "sequelizeproject",
+  "version": "1.0.0",
+  "description": "Proyecto de NodeJs del curso de Udemy La Biblia de NodeJs, implementando Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize"
+  ],
+  "author": "Juan",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  }
+}
