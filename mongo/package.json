@@ -1,0 +1,22 @@
+{
+  "name": "mongoproject",
+  "version": "1.0.0",
+  "description": "Proyecto de NodeJs del curso de Udemy, implementando MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mongo"
+  ],
+  "author": "Juan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.8",
+    "node-cron": "^2.0.3"
+  }
+}
