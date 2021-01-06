@@ -25,7 +25,7 @@ class IdeaController {
   async update(req, res){
     const { body } = req;
     const { ideaId } = req.params;
-    const updatedIdea = await _userService.update(ideaId, body);
+    const updatedIdea = await _ideaService.update(ideaId, body);
     return res.send(updatedIdea);
   }
 
