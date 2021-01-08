@@ -1,0 +1,19 @@
+version: "3"
+
+services: 
+  api: 
+    build: .
+    depends_on: 
+      - mongo
+    environment: 
+      - PORT=8080
+      - MONGO_URI=mongodb://mongo:27017/test
+      - APPLICATION_NAME=Share Yout Idea
+      - JWT_SECRET=algoSeguro
+      - CACHE_KEY=cachePassword
+      - SWAGGER_DOC=swaggerPROD
+    ports: 
+      - "8080:8080"
+  
+  mongo:
+    image: mongo
